@@ -1,0 +1,45 @@
+# Ignore le dossier images
+images/
+
+# Ignorer les dossiers d'environnement virtuel
+env/
+venv/
+mon_env/
+.env/
+
+# Ignorer les fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer les fichiers de logs et de configuration temporaires
+*.log
+.DS_Store
+
+# Pycharm
+.idea/
+
+# Ignorer les fichiers de log et temporaires
+*.log
+*.out
+*.tmp
+
+# 🔹 Ignorer les fichiers de compilation Cython
+*.c
+*.so
+
+# 🔹 Ignorer les fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 Ignorer les fichiers spécifiques à MacOS/Linux/Windows
+.DS_Store
+Thumbs.db
+
+# 🔹 Ignorer les dépendances si elles sont installées via requirements.txt
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🔹 Ignorer les fichiers de debug et core dumps
+debug.log
+core.*
